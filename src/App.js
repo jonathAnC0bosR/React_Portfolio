@@ -1,18 +1,7 @@
-import Navbar from "./Components/Navbar/Navbar"
-import { useState } from "react"
-
 export default function App() {
-
-    const [currentPage, setCurretPage] = useState('Home');
-    const renderPage = () => {
-        if (currentPage === "Home") {
-            return <Home />
-        }
-    }
-
-    return (
-        <div>
-            <Navbar />
-        </div>
-    )
+  return (
+    <div>
+      <h1 className="text-6xl text-red-500 bg-purple-300">Hello there!</h1>
+    </div>
+  );
 }
