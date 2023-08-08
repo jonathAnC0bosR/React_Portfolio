@@ -1,7 +1,12 @@
+import LateralNav from "./Components/LateralNav/LateralNav";
+import MainContent from "./Components/MainContent/MainContent";
+
+
 export default function App() {
   return (
-    <div>
-      <h1 className="text-6xl text-red-500 bg-purple-300">Hello there!</h1>
+    <div className="flex flex-row">
+      <LateralNav />
+      <MainContent />
     </div>
   );
 }
