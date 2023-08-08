@@ -9,7 +9,7 @@ const MainContent = () => {
         <Avatar image={image} />
       </div>
       <div className="flex-1 flex flex-col justify-center items-start p-8">
-        <h1 className="text-5xl font-boldn mb-8">Jonathan Cobos</h1>
+        <h1 className="text-5xl font-extrabold mb-4">Jonathan Cobos</h1>
         <div className="text-3xl mt-2">
           <Typed
             strings={["Full Stack Developer.", "Renewable Systems Enginner."]}
@@ -18,7 +18,7 @@ const MainContent = () => {
             loop
           />
         </div>
-        <p className="mt-3">Web developer in progress with an engineering background, eager to learn new things.</p>
+        <p className="mt-3">Web developer in progress based in México with an engineering background, eager to learn new things.</p>
       </div>
     </div>
   );

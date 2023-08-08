@@ -1,5 +1,3 @@
-
-
 const LateralNav = () => {
     return (
       <div className="w-1/4 bg-neutral-950 text-white flex flex-col justify-center items-center h-screen">
