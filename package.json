@@ -6,11 +6,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.1",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
     "react-typed": "^1.2.0",
     "web-vitals": "^2.1.4"
   },
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@klarr-agency/circum-icons-react": "^2.0.2",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
     "tailwind": "^4.0.0",

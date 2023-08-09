@@ -2,6 +2,7 @@ import image from "../../assets/images/PFP.png";
 import Avatar from "../UI/Avatar";
 import Typed from "react-typed";
 
+
 const MainContent = () => {
   return (
     <div className="w-3/4 bg-neutral-900 text-white h-screen flex">
