@@ -4,6 +4,7 @@ import { RiContactsBookLine } from "react-icons/ri";
 import { ImProfile } from "react-icons/im";
 import { Link } from "react-router-dom";
 
+
 const LateralNav = () => {
   return (
     <div className="w-1/6 bg-neutral-950 text-white flex flex-col justify-center items-center min-h-screen fixed">
