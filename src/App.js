@@ -29,11 +29,18 @@ export default function App() {
               </Wrapper>
             }
           />
-          <Route path="/projects" element={<Projects />} />
+          <Route
+            path="/projects"
+            element={
+              <Wrapper>
+                {" "}
+                <Projects />
+              </Wrapper>
+            }
+          />
           <Route path="/contactMe" element={<ContactMe />} />
         </Routes>
       </div>
     </Router>
   );
 }
-
