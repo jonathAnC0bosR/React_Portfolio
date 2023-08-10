@@ -5,7 +5,7 @@ import Typed from "react-typed";
 
 const MainContent = () => {
   return (
-    <div className="w-3/4 bg-neutral-900 text-white h-screen flex">
+    <div className="w-auto lg:pl-56 bg-neutral-900 text-white min-h-screen flex sm:pl-32">
       <div className="flex-1 flex items-center justify-center">
         <Avatar image={image} />
       </div>
