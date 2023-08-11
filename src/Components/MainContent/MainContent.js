@@ -2,7 +2,6 @@ import image from "../../assets/images/PFP.png";
 import Avatar from "../UI/Avatar";
 import Typed from "react-typed";
 
-
 const MainContent = () => {
   return (
     <div className="w-auto lg:pl-56 bg-neutral-900 text-white min-h-screen flex sm:pl-32">
@@ -19,7 +18,10 @@ const MainContent = () => {
             loop
           />
         </div>
-        <p className="mt-3">Web developer in progress based in México with an engineering background, eager to learn new things.</p>
+        <p className="mt-3">
+          Web developer in progress based in México with an engineering
+          background, eager to learn new things.
+        </p>
       </div>
     </div>
   );

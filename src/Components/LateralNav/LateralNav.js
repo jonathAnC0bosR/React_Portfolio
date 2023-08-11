@@ -10,26 +10,26 @@ const LateralNav = () => {
     <div className="w-1/6 bg-neutral-950 text-white flex flex-col justify-center items-center min-h-screen fixed">
       <div>
         <Link to={`/`}>
-          <p className=" flex text-xl items-center mb-4 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
+          <p className=" flex text-xl items-center mb-10 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
             <SiAboutdotme className="mr-2" />
             Home
           </p>
         </Link>
 
         <Link to={`/aboutMe`}>
-          <p className="flex text-xl items-center mb-4 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
+          <p className="flex text-xl items-center mb-10 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
             <SiAboutdotme className="mr-2" />
             About
           </p>
         </Link>
         <Link to={"/projects"}>
-          <p className="flex text-xl items-center mb-4 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
+          <p className="flex text-xl items-center mb-10 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
             <FaReact className="mr-2" />
             Projects
           </p>
         </Link>
         <Link to={"/contactMe"}>
-          <p className="flex text-xl items-center mb-4 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
+          <p className="flex text-xl items-center mb-10 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
             <RiContactsBookLine className="mr-2" />
             Contact
           </p>

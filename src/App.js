@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import MainContent from "./Components/MainContent/MainContent";
 import AboutMe from "./Components/Pages/About";
@@ -7,40 +8,43 @@ import ContactMe from "./Components/Pages/ContactMe";
 import Wrapper from "./Components/UI/Wrapper";
 
 export default function App() {
+
+  const location = useLocation();
+
   return (
-    <Router>
       <div className="flex flex-row ">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Wrapper>
-                {" "}
-                <MainContent />
-              </Wrapper>
-            }
-          />
-          <Route
-            path="/aboutMe"
-            element={
-              <Wrapper>
-                {""}
-                <AboutMe />
-              </Wrapper>
-            }
-          />
-          <Route
-            path="/projects"
-            element={
-              <Wrapper>
-                {" "}
-                <Projects />
-              </Wrapper>
-            }
-          />
-          <Route path="/contactMe" element={<ContactMe />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes key={location.pathname} location={location} >
+            <Route
+              path="/"
+              element={
+                <Wrapper>
+                  {" "}
+                  <MainContent />
+                </Wrapper>
+              }
+            />
+            <Route
+              path="/aboutMe"
+              element={
+                <Wrapper>
+                  {""}
+                  <AboutMe />
+                </Wrapper>
+              }
+            />
+            <Route
+              path="/projects"
+              element={
+                <Wrapper>
+                  {" "}
+                  <Projects />
+                </Wrapper>
+              }
+            />
+            <Route path="/contactMe" element={<ContactMe />} />
+          </Routes>
+        </AnimatePresence>
       </div>
-    </Router>
   );
 }
