@@ -3,6 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { RiContactsBookLine } from "react-icons/ri";
 import { ImProfile } from "react-icons/im";
 import { Link } from "react-router-dom";
+import {BiHome} from 'react-icons/bi'
 
 
 const LateralNav = () => {
@@ -11,7 +12,7 @@ const LateralNav = () => {
       <div>
         <Link to={`/`}>
           <p className=" flex text-xl items-center mb-10 transition ease-out delay-150 hover:opacity-75 hover:scale-110">
-            <SiAboutdotme className="mr-2" />
+            <BiHome className="mr-2" />
             Home
           </p>
         </Link>
