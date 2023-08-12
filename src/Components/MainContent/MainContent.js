@@ -4,11 +4,11 @@ import Typed from "react-typed";
 
 const MainContent = () => {
   return (
-    <div className="w-auto lg:pl-56 bg-neutral-900 text-white min-h-screen flex sm:pl-32">
-      <div className="flex-1 flex items-center justify-center">
+    <div className="w-screen lg:pl-56 bg-neutral-900 text-white min-h-screen grid grid-cols-2  sm:pl-32">
+      <div className="flex items-center justify-center">
         <Avatar image={image} />
       </div>
-      <div className="flex-1 flex flex-col justify-center items-start p-8">
+      <div className="flex flex-col justify-center items-start p-8">
         <h1 className="text-5xl font-extrabold mb-4">Jonathan Cobos</h1>
         <div className="text-3xl mt-2">
           <Typed

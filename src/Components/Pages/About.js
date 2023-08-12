@@ -3,8 +3,8 @@ import AnimatedDiv from "../UI/AnimatedDiv";
 
 const AboutMe = () => {
   return (
-    <div className="w-full lg:pl-56 bg-neutral-900 min-h-screen flex sm:pl-32">
-      <AnimatedDiv styles="flex-1 m-10">
+    <div className="w-full lg:pl-56 bg-neutral-900 min-h-screen sm:pl-32">
+      <AnimatedDiv styles="m-10">
         <h1 className=" text-white text-2xl font-extrabold mb-8 ">About Me</h1>
         <img src={image} alt="Avatar_image" className="w-1/2 mx-auto" />
         <div className="mb-4 p-2 border-b-2 border-slate-400">

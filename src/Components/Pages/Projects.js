@@ -85,9 +85,8 @@ const Projects = () => {
   };
 
   return (
-    <AnimatedDiv>
       <div className="w-full lg:pl-56 sm:pl-32 bg-neutral-900 min-h-screen flex text-white">
-        <div className="flex-1 m-10">
+        <AnimatedDiv styles="flex-1 m-10">
           <div className="p-2 border-b-2 border-slate-400">
             <h1 className="font-extrabold text-2xl">Projects</h1>
           </div>
@@ -107,9 +106,8 @@ const Projects = () => {
           {isModalOpen && (
             <ProjectModal project={project} onClose={handleCloseModal} />
           )}
-        </div>
+        </AnimatedDiv>
       </div>
-    </AnimatedDiv>
   );
 };
 
