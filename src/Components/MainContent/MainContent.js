@@ -1,6 +1,7 @@
 import image from "../../assets/images/PFP.png";
 import Avatar from "../UI/Avatar";
 import Typed from "react-typed";
+import Footer from "../../Footer/Footer";
 
 const MainContent = () => {
   return (
@@ -21,7 +22,9 @@ const MainContent = () => {
         <p className="mt-3">
           Web developer in progress based in México with an engineering
           background, eager to learn new things.
+          <Footer />
         </p>
+
       </div>
     </div>
   );
