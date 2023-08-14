@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react/gh/pages/static/css/main.90faf52c.css",
-    "main.js": "/react/gh/pages/static/js/main.1bac4e7b.js",
-    "static/media/Xcaret.jpg": "/react/gh/pages/static/media/Xcaret.568127b060212a7041b9.jpg",
-    "static/media/PFP.png": "/react/gh/pages/static/media/PFP.16601f1124cdb2fad254.png",
-    "static/media/Ecommerce.png": "/react/gh/pages/static/media/Ecommerce.f763da6c7be15efbb597.png",
-    "static/media/BooBooBooks.png": "/react/gh/pages/static/media/BooBooBooks.2f08d1ef1234aadaab69.png",
-    "static/media/PGenerator.png": "/react/gh/pages/static/media/PGenerator.32b4f757ba92fdcb6da3.png",
-    "static/media/Tech_blog.png": "/react/gh/pages/static/media/Tech_blog.8795da41d655300c5127.png",
-    "static/media/BetBud.png": "/react/gh/pages/static/media/BetBud.5a4f895196320b986077.png",
-    "index.html": "/react/gh/pages/index.html",
-    "main.90faf52c.css.map": "/react/gh/pages/static/css/main.90faf52c.css.map",
-    "main.1bac4e7b.js.map": "/react/gh/pages/static/js/main.1bac4e7b.js.map"
+    "main.css": "/React_Portfolio/static/css/main.90faf52c.css",
+    "main.js": "/React_Portfolio/static/js/main.6b250418.js",
+    "static/media/Xcaret.jpg": "/React_Portfolio/static/media/Xcaret.568127b060212a7041b9.jpg",
+    "static/media/PFP.png": "/React_Portfolio/static/media/PFP.16601f1124cdb2fad254.png",
+    "static/media/Ecommerce.png": "/React_Portfolio/static/media/Ecommerce.f763da6c7be15efbb597.png",
+    "static/media/BooBooBooks.png": "/React_Portfolio/static/media/BooBooBooks.2f08d1ef1234aadaab69.png",
+    "static/media/PGenerator.png": "/React_Portfolio/static/media/PGenerator.32b4f757ba92fdcb6da3.png",
+    "static/media/Tech_blog.png": "/React_Portfolio/static/media/Tech_blog.8795da41d655300c5127.png",
+    "static/media/BetBud.png": "/React_Portfolio/static/media/BetBud.5a4f895196320b986077.png",
+    "index.html": "/React_Portfolio/index.html",
+    "main.90faf52c.css.map": "/React_Portfolio/static/css/main.90faf52c.css.map",
+    "main.6b250418.js.map": "/React_Portfolio/static/js/main.6b250418.js.map"
   },
   "entrypoints": [
     "static/css/main.90faf52c.css",
-    "static/js/main.1bac4e7b.js"
+    "static/js/main.6b250418.js"
   ]
 }
