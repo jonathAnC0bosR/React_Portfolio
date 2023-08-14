@@ -2,9 +2,6 @@ import AnimatedDiv from "../UI/AnimatedDiv";
 import Form from "../Form/Form";
 
 const ContactMe = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   return (
       <div className="w-screen lg:pl-56 bg-neutral-900 min-h-screen flex items-center justify-center">
@@ -13,7 +10,7 @@ const ContactMe = () => {
           <p className="text-white">
             Feel free to contact me. I will reach you as soon as I can.{" "}
           </p>
-            <Form handleSubmit={handleSubmit} />
+            <Form  />
         </AnimatedDiv>
       </div>
   );
