@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
