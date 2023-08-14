@@ -1,4 +1,4 @@
-import image from "../../assets/images/PFP.png";
+import image from "../../assets/images/Main_Img.jpg";
 import Avatar from "../UI/Avatar";
 import Typed from "react-typed";
 import Footer from "../Footer/Footer";
