@@ -6,6 +6,7 @@ import AboutMe from "./Components/Pages/About";
 import Projects from "./Components/Pages/Projects";
 import ContactMe from "./Components/Pages/ContactMe";
 import Wrapper from "./Components/UI/Wrapper";
+import Resume from "./Components/Pages/Resume";
 
 export default function App() {
   const location = useLocation();
@@ -47,6 +48,15 @@ export default function App() {
               <Wrapper>
                 {" "}
                 <ContactMe />
+              </Wrapper>
+            }
+          />
+          <Route
+            path="/resume"
+            element={
+              <Wrapper>
+                {" "}
+                <Resume />
               </Wrapper>
             }
           />

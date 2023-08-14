@@ -1,7 +1,7 @@
 import image from "../../assets/images/PFP.png";
 import Avatar from "../UI/Avatar";
 import Typed from "react-typed";
-import Footer from "../../Footer/Footer";
+import Footer from "../Footer/Footer";
 
 const MainContent = () => {
   return (
